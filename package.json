@@ -1,0 +1,19 @@
+{
+  "name": "service-map",
+  "version": "1.0.0",
+  "description": "Map services and how they interact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinLemCode/service-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinLemCode/service-map/issues"
+  },
+  "homepage": "https://github.com/QuentinLemCode/service-map#readme"
+}
