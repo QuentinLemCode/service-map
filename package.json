@@ -2,7 +2,13 @@
   "name": "service-map",
   "version": "1.0.0",
   "description": "Map services and how they interact",
-  "source": "src/index.html",
+  "targets": {
+      "default": {
+          "source": "src/index.html",
+          "publicUrl": "/service-map",
+          "sourceMap": false
+    }
+  },
   "scripts": {
     "start": "parcel",
     "build": "rimraf dist && parcel build",
