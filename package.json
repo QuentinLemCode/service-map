@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/QuentinLemCode/service-map/issues"
   },
-  "homepage": "https://github.com/QuentinLemCode/service-map#readme"
+  "homepage": "https://github.com/QuentinLemCode/service-map#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
