@@ -5,13 +5,12 @@
   "targets": {
       "default": {
           "source": "src/index.html",
-          "publicUrl": "/service-map",
-          "sourceMap": false
+          "publicUrl": "/service-map"
     }
   },
   "scripts": {
-    "start": "parcel",
-    "build": "rimraf dist && parcel build",
+    "start": "parcel src/index.html",
+    "build": "rimraf dist && parcel build --sourcemap=false",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
