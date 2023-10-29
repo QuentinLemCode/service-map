@@ -18,5 +18,8 @@
   "homepage": "https://github.com/QuentinLemCode/service-map#readme",
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "konva": "^9.2.2"
   }
 }
