@@ -5,7 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/QuentinLemCode/service-map#readme",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "parcel": "^2.10.1",
     "typescript": "^5.2.2"
   },
