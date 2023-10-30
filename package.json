@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "Map services and how they interact",
   "targets": {
-      "default": {
-          "source": "src/index.html",
-          "publicUrl": "/service-map",
-          "sourceMap": false
+    "default": {
+      "source": "src/index.html",
+      "publicUrl": "/service-map",
+      "sourceMap": false
     }
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "rimraf dist && parcel build --target default",
-    "deploy": "gh-pages -d dist"
+    "build": "rimraf dist && parcel build --target default"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,6 @@
   },
   "homepage": "https://github.com/QuentinLemCode/service-map#readme",
   "devDependencies": {
-    "gh-pages": "^6.0.0",
     "parcel": "^2.10.1",
     "rimraf": "^5.0.5",
     "typescript": "^5.2.2"
