@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    concurrency:
+        group: ${{ github.ref }}
+        cancel-in-progress: true
 
     steps:
       - name: Checkout Repository
@@ -28,6 +31,9 @@ jobs:
           path: dist
 
   deploy:
+    concurrency:
+        group: ${{ github.ref }}
+        cancel-in-progress: true
     needs: build
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
