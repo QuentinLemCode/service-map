@@ -6,9 +6,6 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     target-branch: "main"
-    automerge:
-      labels:
-        - "dependencies"
     labels:
       - "dependencies"
     assignees:
@@ -20,9 +17,6 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     target-branch: "main"
-    automerge:
-      labels:
-        - "workflow"
     labels:
       - "workflow"
     assignees:
