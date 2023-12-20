@@ -29,6 +29,6 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "konva": "^9.2.3"
+    "konva": "^9.3.0"
   }
 }
